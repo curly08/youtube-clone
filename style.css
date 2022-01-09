@@ -71,9 +71,14 @@ main {
   background-color: rgb(245, 245, 245);
   width: 100%;
   display: flex;
-  gap: 10px;
+  gap: 20px;
   justify-content: center;
   padding: 20px 0;
+}
+
+.video-content {
+  display: flex;
+  flex-direction: column;
 }
 
 .video-title-stuff {
@@ -92,6 +97,38 @@ main {
   display: flex;
   gap: 20px;
   align-self: flex-end;
+}
+
+.description {
+  padding: 20px 0;
+}
+
+.channel-info {
+  display: flex;
+  justify-content: space-between;
+}
+section > div {
+  display: flex;
+  gap: 13px;
+}
+
+div > img {
+  align-self: flex-start;
+  border-radius: 50%;
+}
+
+.channel-links {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.channel-links > a {
+  padding: 9px;
+}
+
+button {
+  padding: 10px;
 }
 
 aside {
