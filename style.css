@@ -4,6 +4,8 @@
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/* Navbar */
+
 nav {
   display: flex;
   height: 56px;
@@ -67,6 +69,8 @@ i.fa-microphone {
   padding: 13px;
 }
 
+/* Main Section */
+
 main {
   background-color: rgb(245, 245, 245);
   width: 100%;
@@ -75,6 +79,8 @@ main {
   justify-content: center;
   padding: 20px 0;
 }
+
+/* Video and Title Info Section */
 
 .video-content {
   display: flex;
@@ -98,6 +104,8 @@ main {
   gap: 20px;
   align-self: flex-end;
 }
+
+/* Video Description Section */
 
 .description {
   padding: 20px 0;
@@ -130,6 +138,36 @@ div > img {
 button {
   padding: 10px;
 }
+
+/* Comments Section */
+
+.comments-header {
+  padding: 20px 0;
+  display: flex;
+  gap: 20px
+}
+
+.comment-form > p {
+  color: white;
+  border: 1px;
+  border-style: none;
+  border-radius: 50%;
+  background: rgb(87, 158, 224);
+  padding: 12px;
+}
+
+.comment-input {
+  width: 100%;
+}
+
+.comment-input > input {
+  background-color:rgba(0, 0, 0, 0);
+  border: none;
+  outline:none;
+  height:30px;
+}
+
+/* Related Videos Sidebar */
 
 aside {
   width: 402px;
